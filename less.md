@@ -5,8 +5,7 @@
 
 ```less {filename}```
 
-
-
+&nbsp;
 
 Navigation    |                                 | Search | &nbsp;
 --------------|---------------------------------|--------|----------------------
@@ -22,8 +21,8 @@ Navigation    |                                 | Search | &nbsp;
 ```10k```     | 10 lines backward               ||
 ```q or ZZ``` | Exit the less pager             ||
 
-
-
+&nbsp;
+&nbsp;
 
 Other          ||
 ---------------|---------------------------------------------------------------------------
@@ -33,11 +32,3 @@ Other          ||
 ```&pattern``` | display only the matching lines, not all
 ```v```        | using the configured editor edit the current file
 ```CTRL+G```   | show the current file name along with line, byte and percentage statistics
-
-
-Search  ||
---------|---------------------
-```/``` | Search forward
-```?``` | Search backward
-```n``` | Go to next match
-```N``` | Go to previous match
