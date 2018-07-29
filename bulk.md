@@ -49,3 +49,19 @@ Command         ||
 ```scp root@host:/path/to/source/\*.txt /path/to/dst/``` | copy all .txt from a remote server to this server
 ```scp -r /path/to/directory root@host:/path/to/dst/``` | copy a directory from this server to a remote server
 ```scp -r root@host:/path/to/directory /path/to/dst/``` | copy a directory from a remote server to this server
+
+&nbsp;
+&nbsp;
+
+## Screen
+
+&nbsp;
+
+Command         ||
+---------------|---------------------------------------------------------------------------------------------------------------
+```CTRL-a``` + ```c```  | Create new window
+```CTRL-a``` + ```d```  | Create new window
+```scp /path/to/directory/\*.txt root@host:/path/to/dst/``` | copy all .txt from this server to a remote server
+```scp root@host:/path/to/source/\*.txt /path/to/dst/``` | copy all .txt from a remote server to this server
+```scp -r /path/to/directory root@host:/path/to/dst/``` | copy a directory from this server to a remote server
+```scp -r root@host:/path/to/directory /path/to/dst/``` | copy a directory from a remote server to this server
