@@ -32,3 +32,19 @@ Other          ||
 ```&pattern``` | display only the matching lines, not all
 ```v```        | using the configured editor edit the current file
 ```CTRL+G```   | show the current file name along with line, byte and percentage statistics
+
+&nbsp;
+&nbsp;
+
+```SCP ```
+
+&nbsp;
+
+Other          ||
+---------------|---------------------------------------------------------------------------
+scp /path/to/file root@host:/path/to/destination/ | copy a file from this server to a remote server
+scp root@host:/path/to/file /path/to/destination/ | copy a file from a remote server to this server
+scp /path/to/file1 /path/to/file2 root@host:/path/to/destination/ | copy multiple files from this server to a remote server
+scp root@host:/path/to/source/ /path/to/file1 /path/to/file2 | copy multiple files from a remote server to this server
+scp /path/to/directory/\*.txt root@host:/path/to/destination/ | copy all files of type .txt from this server to a remote server
+scp root@host:/path/to/source/\*.txt /path/to/destination/ | copy all files of type .txt from a remote server to this server
