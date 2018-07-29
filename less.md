@@ -40,11 +40,12 @@ Other          ||
 
 &nbsp;
 
-Other          ||
+Command          ||
 ---------------|---------------------------------------------------------------------------------------------------------------
-scp /path/to/file root@host:/path/to/destination/ | copy a file from this server to a remote server
-scp root@host:/path/to/file /path/to/destination/ | copy a file from a remote server to this server
-scp /path/to/file1 /path/to/file2 root@host:/path/to/destination/ | copy multiple files from this server to a remote server
-scp root@host:/path/to/source/ /path/to/file1 /path/to/file2 | copy multiple files from a remote server to this server
-scp /path/to/directory/\*.txt root@host:/path/to/destination/ | copy all files of type .txt from this server to a remote server
-scp root@host:/path/to/source/\*.txt /path/to/destination/ | copy all files of type .txt from a remote server to this server
+scp /path/to/X root@host:/path/to/dst/ | copy X from this server to a remote server
+scp root@host:/path/to/X /path/to/dst/ | copy X from a remote server to this server
+scp /path/to/X /path/to/Y root@host:/path/to/dst/ | copy X & Y from this server to a remote server
+scp /path/to/directory/\*.txt root@host:/path/to/dst/ | copy all .txt from this server to a remote server
+scp root@host:/path/to/source/\*.txt /path/to/dst/ | copy all .txt from a remote server to this server
+scp -r /path/to/directory root@host:/path/to/dst/ | copy a directory from this server to a remote server
+scp -r root@host:/path/to/directory /path/to/dst/ | copy a directory from a remote server to this server
