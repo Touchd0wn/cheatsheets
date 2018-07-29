@@ -41,7 +41,7 @@ Other          ||
 &nbsp;
 
 Other          ||
----------------|---------------------------------------------------------------------------
+---------------|---------------------------------------------------------------------------------------------------------------
 scp /path/to/file root@host:/path/to/destination/ | copy a file from this server to a remote server
 scp root@host:/path/to/file /path/to/destination/ | copy a file from a remote server to this server
 scp /path/to/file1 /path/to/file2 root@host:/path/to/destination/ | copy multiple files from this server to a remote server
