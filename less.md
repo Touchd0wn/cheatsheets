@@ -40,7 +40,7 @@ Other          ||
 
 &nbsp;
 
-Command          ||
+Command         ||
 ---------------|---------------------------------------------------------------------------------------------------------------
 scp /path/to/X root@host:/path/to/dst/ | copy X from this server to a remote server
 scp root@host:/path/to/X /path/to/dst/ | copy X from a remote server to this server
